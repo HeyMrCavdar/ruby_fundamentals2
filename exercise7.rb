@@ -5,4 +5,6 @@ def print_list(class_size)
 		puts "#{year}: #{size} students"
 	end
 end
+# print_list(students)
+students[:cohort4] = 43
 print_list(students)
