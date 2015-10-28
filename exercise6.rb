@@ -8,3 +8,4 @@ end
 groceries(grocery_list)
 grocery_list.push("rice")
 groceries(grocery_list)
+puts grocery_list.length
