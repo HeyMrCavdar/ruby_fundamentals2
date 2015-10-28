@@ -6,6 +6,7 @@ def groceries(list)
 	end
 end
 
+grocery_list.pop
 grocery_list.push("rice")
 puts groceries(grocery_list).sort
 
