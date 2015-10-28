@@ -1,10 +1,17 @@
-students = {cohort1: 34, cohort2: 42, cohort3: 22}
+$students = {cohort1: 34, cohort2: 42, cohort3: 22}
 
-def print_list(class_size)
-	class_size. each do |year, size|
-		puts "#{year}: #{size} students"
+$students[:cohort4] = 43
+def add_5(input)
+	input.each do |key, value|
+		input[key] = value * 1.05
 	end
 end
-# print_list(students)
-students[:cohort4] = 43
-puts students.keys
+
+add_5($students)
+$students.each do |key, value|
+	puts "#{key} has #{value} students"
+end
+# add_5(students)
+
+# puts $students
+
