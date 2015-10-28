@@ -7,4 +7,4 @@ def print_list(class_size)
 end
 # print_list(students)
 students[:cohort4] = 43
-print_list(students)
+puts students.keys
