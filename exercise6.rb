@@ -4,4 +4,7 @@ def groceries(list)
 		puts "* #{item}"
 	end
 end
+
+groceries(grocery_list)
+grocery_list.push("rice")
 groceries(grocery_list)
